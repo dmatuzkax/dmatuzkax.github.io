@@ -43,3 +43,7 @@ nav {
 .active {
     border-bottom-color: white;
 }
+
+main {
+    margin: 20px;
+}
