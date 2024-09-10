@@ -93,3 +93,61 @@ header {
 .social-icon.github:hover {
     color: #333; /* GitHub color */
 }
+
+.skills {
+    font-style: italic;
+}
+
+.projects {
+    margin: 70px;
+}
+
+.info {
+    margin: 70px;
+}
+
+.info p {
+    width: 800px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Same as width to maintain aspect ratio */
+    border-radius: 50%; /* Makes the image circular */
+    overflow: hidden; /* Ensures the image is clipped to the circle */
+    border: 1px solid #ddd; /* Optional: Adds a border around the circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for a 3D effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* Ensures the image covers the circle without distortion */
+}
+
+.profile-text {
+    flex: 1; /* Takes up the remaining space */
+}
+
+.profile-text h2 {
+    margin-top: 0;
+}
+
+.profile-text ul {
+    list-style: disc;
+    margin: 0;
+    padding-left: 20px;
+}
