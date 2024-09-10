@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
     <script>
-        (function() {
+        document.addEventListener("DOMContentLoaded", function() {
             var path = window.location.pathname;
-            var redirectMap = {
+            var fileMap = {
                 '/': 'index.html',
                 '/work-experience': 'work-experience.html',
                 '/contact': 'contact.html',
                 '/projects': 'projects.html'
             };
-            var newLocation = redirectMap[path] || 'index.html';
-            window.location.href = newLocation;
-        })();
+            var fileToLoad = fileMap[path] || 'index.html';
+            window.location.href = fileToLoad;
+        });
     </script>
 </head>
 <body>
