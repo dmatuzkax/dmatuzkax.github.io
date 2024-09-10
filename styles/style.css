@@ -178,7 +178,7 @@ h1 {
     box-sizing: border-box; /* Includes padding and border in element’s total width and height */
     align-self: center;
     position: absolute;
-    top: 90px;
+    top: 180px;
 }
 
 .job-container h2 {
@@ -259,4 +259,8 @@ h1 {
 
 .assignment-header {
     margin-left: 346px;
+}
+
+.work-header {
+    margin-left: 310px;
 }
