@@ -239,14 +239,25 @@ h1 {
     flex-direction: column;
 }
 
-.assignment-box h2, .assignment-box-2 h2 {
+.assignment-box-3 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    width: 50%;
+    height: 200px;
+}
+
+.assignment-box h2, .assignment-box-2 h2, .assignemnt-box-3 h2 {
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 20px;
     color: #333;
 }
 
-.assignment-box p, .assignment-box-2 p {
+.assignment-box p, .assignment-box-2 p, .assignemnt-box-3 p {
     margin: 0 0 10px;
     font-size: 16px;
     color: #666;
@@ -263,6 +274,7 @@ h1 {
     transition: background-color 0.3s ease;
     margin-top: 30px;
     width: 80px;
+    margin-bottom: 10px;
 }
 
 .btn:hover {
