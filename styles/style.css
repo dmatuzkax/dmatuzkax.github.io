@@ -226,7 +226,7 @@ h1 {
     height: 150px;
 }
 
-.assignment-box-2 {
+.assignment-box-2, .assignment-box-4 {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -250,14 +250,14 @@ h1 {
     height: 200px;
 }
 
-.assignment-box h2, .assignment-box-2 h2, .assignemnt-box-3 h2 {
+.assignment-box h2, .assignment-box-2 h2, .assignemnt-box-3 h2, .assignment-box-4 h2 {
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 20px;
     color: #333;
 }
 
-.assignment-box p, .assignment-box-2 p, .assignemnt-box-3 p {
+.assignment-box p, .assignment-box-2 p, .assignemnt-box-3 p, .assignment-box-4 p {
     margin: 0 0 10px;
     font-size: 16px;
     color: #666;
